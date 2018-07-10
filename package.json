@@ -1,0 +1,25 @@
+{
+  "name": "protractor.fever",
+  "version": "1.0.0",
+  "description": "I've got a testing fever. The solution is more protractor.",
+  "main": "todo-specjs",
+  "scripts": {
+    "test": "echo \"Hello Test!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrianMikinski/ProtractorFever"
+  },
+  "keywords": [
+    "protractor",
+    "fever"
+  ],
+  "author": "Brian Mikinski ",
+  "devDependencies": {
+    "protractor": "^5.3.2",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
