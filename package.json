@@ -4,7 +4,9 @@
   "description": "I've got a testing fever. The solution is more protractor.",
   "main": "todo-specjs",
   "scripts": {
-    "test": "echo \"Hello Test!\" && exit 1"
+    "server" : "node ./server.js",
+    "selenium" : "node_modules/.bin/webdriver-manager start",
+    "e2eTest": "node_modules/.bin/protractor conf.js"
   },
   "repository": {
     "type": "git",
